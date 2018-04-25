@@ -39,7 +39,7 @@ function lambdaSchool(num) {
     }
 
     return num;
-};
+}
 
 
 
@@ -62,7 +62,7 @@ function longestString(strs) {
         }
     };
     return longest;
-};
+}
 
 
 
@@ -93,7 +93,7 @@ function computeUserAverageAge(users) {
         totalAge += u.age;
     });
     return Math.round(totalAge / users.length);
-};
+}
 
 module.exports = {
  helloWorld,
